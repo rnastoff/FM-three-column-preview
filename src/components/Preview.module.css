@@ -1,0 +1,13 @@
+.cardGroup {
+  border-radius: 0.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+@media (max-width: 945px) {
+  .cardGroup {
+    flex-direction: column;
+  }
+}
